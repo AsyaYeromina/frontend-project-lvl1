@@ -36,14 +36,14 @@ jobs:
     - run: npm test
     - name: npm install
         # Install project
-        run: |
+        run:
           make install
         # Add environment variables
         env:
           CI: true
       - name: Run linter
         # Run Linter
-        run: |
+        run:
           make lint
       - name: Test & publish code coverage
         # Publish code coverage on Code Climate
