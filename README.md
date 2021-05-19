@@ -6,4 +6,4 @@
 ---
 #### Asciinema recorgings:
 
-- **[Brain-even asciinema](https://asciinema.org/a/KZy0KGGePV9Kjw9xp9sqIbMM8)**
+- **Brain-even asciicast** [![Brain-even asciicast](https://asciinema.org/a/414973.svg)](https://asciinema.org/a/414973)
