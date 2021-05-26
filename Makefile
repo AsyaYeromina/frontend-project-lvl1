@@ -12,3 +12,6 @@ lint:
 
 even:
 	node bin/brain-even.js
+
+calc:
+	node bin/brain-calc.js
