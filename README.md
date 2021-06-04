@@ -7,3 +7,4 @@
 #### Asciinema recorgings:
 
 - **Brain-even asciicast** [![Brain-even asciicast](https://asciinema.org/a/414973.svg)](https://asciinema.org/a/414973)
+- **Brain-calc asciicast** [![Brain-even asciicast](https://asciinema.org/a/418333.svg)](https://asciinema.org/a/418333)
