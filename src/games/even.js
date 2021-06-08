@@ -8,10 +8,10 @@ const isEven = (number) => !(number % 2);
 
 const convertAnswer = (number) => (isEven(number) ? 'yes' : 'no');
 
-function getRoundData() {
+function generateGameData() {
   const curTask = generateRandomNumber(LIMIT_RANDOM_NUMBER);
   const curSolution = convertAnswer(curTask);
   return [curTask, curSolution];
 }
 
-export default () => gameEngine(GAME_RULES_MESSAGE, getRoundData);
+export default () => gameEngine(GAME_RULES_MESSAGE, generateGameData);

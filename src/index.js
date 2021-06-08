@@ -3,11 +3,11 @@ import userName from './cli.js';
 
 const ATTEMPT_COUNTER = 3;
 
-const gameEngine = (GAME_RULES_MESSAGE, getRoundData) => {
+const gameEngine = (GAME_RULES_MESSAGE, generateGameData) => {
   console.log(`${GAME_RULES_MESSAGE}`);
 
   for (let i = 0; i < ATTEMPT_COUNTER; i += 1) {
-    const [curTask, curSolution] = getRoundData();
+    const [curTask, curSolution] = generateGameData();
     console.log(`Question: ${curTask}`);
     const userAnswer = readlineSync.question('Your answer: ');
 

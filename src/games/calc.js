@@ -23,7 +23,7 @@ const getSolution = (firstNum, operator, secondNum) => {
   }
 };
 
-const getRoundData = () => {
+const generateGameData = () => {
   const curRandomFirst = generateRandomNumber(LIMIT_RANDOM_NUMBER);
   const curRandomOperation = generateOperation();
   const curRandomSecond = generateRandomNumber(LIMIT_RANDOM_NUMBER);
@@ -32,4 +32,4 @@ const getRoundData = () => {
   return [curTask, curSolution];
 };
 
-export default () => gameEngine(GAME_RULES_MESSAGE, getRoundData);
+export default () => gameEngine(GAME_RULES_MESSAGE, generateGameData);
