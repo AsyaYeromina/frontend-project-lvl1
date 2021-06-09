@@ -21,3 +21,6 @@ gcd:
 
 prgs:
 	node bin/brain-progression.js
+
+prime:
+	node bin/brain-prime.js
