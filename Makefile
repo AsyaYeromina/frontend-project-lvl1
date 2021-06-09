@@ -18,3 +18,6 @@ calc:
 
 gcd:
 	node bin/brain-gcd.js
+
+prgs:
+	node bin/brain-progression.js
