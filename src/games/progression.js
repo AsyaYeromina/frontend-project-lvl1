@@ -2,8 +2,8 @@ import gameEngine from '../index.js';
 import generateRandomNumber from '../../modules/random-generator.js';
 
 const GAME_RULES_MESSAGE = 'What number is missing in the progression?';
-const MINIMAL_RANDOM_NUMBER = 0;
 const LIMIT_RANDOM_NUMBER = 100;
+const MINIMAL_RANDOM_NUMBER = 0;
 const progrsMinLength = 5;
 const progrsMaxLength = 15;
 const minProgrsDifference = 1;
