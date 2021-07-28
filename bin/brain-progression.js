@@ -1,5 +1,4 @@
-
-// Requests answer 'yes' if the number is even, 'no' if the number is odd
+// Requests answer to the question which number is missed in the progression.
 
 import startProgressionGame from '../src/games/progression.js';
 

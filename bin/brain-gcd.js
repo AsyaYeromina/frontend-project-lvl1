@@ -1,4 +1,4 @@
-// Requests answer 'yes' if the number is even, 'no' if the number is odd
+// Requests answer to the question which number is the greatest common divisor for given numbers
 
 import startGCDGame from '../src/games/gcd.js';
 
