@@ -8,3 +8,6 @@
 
 - **Brain-even asciicast** [![Brain-even asciicast](https://asciinema.org/a/414973.svg)](https://asciinema.org/a/414973)
 - **Brain-calc asciicast** [![Brain-even asciicast](https://asciinema.org/a/418333.svg)](https://asciinema.org/a/418333)
+- **Brain-gcd asciicast** [![Brain-even asciicast](https://asciinema.org/a/427819.svg)](https://asciinema.org/a/427819)
+- **Brain-progression asciicast** [![Brain-even asciicast](https://asciinema.org/a/427820.svg)](https://asciinema.org/a/427820)
+- **Brain-prime asciicast** [![Brain-even asciicast](https://asciinema.org/a/427821.svg)](https://asciinema.org/a/427821)
