@@ -4,11 +4,11 @@ import generateRandomNumber from '../../modules/random-generator.js';
 const GAME_RULES_MESSAGE = 'What is the result of the expression?';
 const LIMIT_RANDOM_NUMBER = 10;
 const MINIMAL_RANDOM_NUMBER = 0;
-const RANDOM_OPERATION = ['+', '-', '*'];
+const RANDOM_OPERATIONS = ['+', '-', '*'];
 
 const generateOperation = () => {
-  const curRandomOperationIndex = generateRandomNumber(0, RANDOM_OPERATION.length - 1);
-  return RANDOM_OPERATION[curRandomOperationIndex];
+  const curRandomOperationIndex = generateRandomNumber(0, RANDOM_OPERATIONS.length - 1);
+  return RANDOM_OPERATIONS[curRandomOperationIndex];
 };
 
 const getSolution = (firstNum, operator, secondNum) => {
