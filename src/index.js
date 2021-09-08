@@ -3,7 +3,7 @@ import greeting from './cli.js';
 
 const ATTEMPT_COUNTER = 3;
 
-const gameEngine = (GAME_RULES_MESSAGE, generateGameData) => {
+const startGameEngine = (GAME_RULES_MESSAGE, generateGameData) => {
   const userName = greeting();
 
   console.log(`${GAME_RULES_MESSAGE}`);
@@ -25,4 +25,4 @@ const gameEngine = (GAME_RULES_MESSAGE, generateGameData) => {
   console.log(`Congratulations, ${userName}!`);
 };
 
-export default gameEngine;
+export default startGameEngine;

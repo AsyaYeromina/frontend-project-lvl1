@@ -1,4 +1,4 @@
-import gameEngine from '../index.js';
+import startGameEngine from '../index.js';
 import generateRandomNumber from '../../modules/random-generator.js';
 
 const GAME_RULES_MESSAGE = 'Find the greatest common divisor of given numbers.';
@@ -21,4 +21,4 @@ function getRoundData() {
   return [curTask, curSolution];
 }
 
-export default () => gameEngine(GAME_RULES_MESSAGE, getRoundData);
+export default () => startGameEngine(GAME_RULES_MESSAGE, getRoundData);

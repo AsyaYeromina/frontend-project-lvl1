@@ -1,4 +1,4 @@
-import gameEngine from '../index.js';
+import startGameEngine from '../index.js';
 import generateRandomNumber from '../../modules/random-generator.js';
 
 const GAME_RULES_MESSAGE = 'What number is missing in the progression?';
@@ -24,4 +24,4 @@ function generateGameData() {
   return [generatedArr.join(' '), correctSolution.toString()];
 }
 
-export default () => gameEngine(GAME_RULES_MESSAGE, generateGameData);
+export default () => startGameEngine(GAME_RULES_MESSAGE, generateGameData);
