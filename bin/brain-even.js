@@ -1,4 +1,4 @@
-// Requests answer 'yes' if the number is even, 'no' if the number is odd
+#!/usr/bin/env node
 
 import startEvenGame from '../src/games/even.js';
 
