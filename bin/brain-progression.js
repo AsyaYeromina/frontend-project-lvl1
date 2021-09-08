@@ -1,4 +1,4 @@
-// Requests answer to the question which number is missed in the progression.
+#!/usr/bin/env node
 
 import startProgressionGame from '../src/games/progression.js';
 

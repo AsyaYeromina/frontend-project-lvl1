@@ -1,4 +1,4 @@
-// Requests answer to the question with one of the operations +, - or *.
+#!/usr/bin/env node
 
 import startCalcGame from '../src/games/calc.js';
 

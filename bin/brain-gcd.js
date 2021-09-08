@@ -1,4 +1,4 @@
-// Requests answer to the question which number is the greatest common divisor for given numbers
+#!/usr/bin/env node
 
 import startGCDGame from '../src/games/gcd.js';
 
